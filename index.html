@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1>Weather App</h1>
+        <form>
+            <label for="city">City:</label>
+            <input id="user-city" name="city" type="text" required placeholder="required">
+            <label for="state">State:</label>
+            <input id="user-state" name="state" type="text" placeholder="optional">
+            <label for="country">Country:</label>
+            <input id="user-country" name="country" type="text" placeholder="optional">
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        <div id="container">
+            <div id="city"></div>
+            <div id="weather"></div>
+            <img src="#"/>
+            <div id="min"></div>
+            <div id="temp"></div>
+            <div id="max"></div>
+            <div id="humidity"></div>
+            <div id="speed"></div>
+            <div id="deg"></div>
+            <div id="deg-radio">
+                <label for="F">F</label>
+                <input id="F" name="degree" type="radio" checked autocomplete="off"></input>
+                <label for="C">C</label>
+                <input id="C" name="degree" type="radio" autocomplete="off"></input>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
