@@ -80,13 +80,193 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _API
 
 /***/ }),
 
+/***/ "./src/assets/imgs/01d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/01d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"21d0166d556b45f9d0fb.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/01d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/01n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/01n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2dea4f0c50e2c8b7319a.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/01n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/02d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/02d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7eb74c4e0a99eebd4f9f.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/02d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/02n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/02n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3b2e3426e30cdc516b3d.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/02n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/03d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/03d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"826d0111ad3d4fb9d6ef.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/03d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/03n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/03n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"826d0111ad3d4fb9d6ef.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/03n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/04d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/04d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e6663ab6322a5eaec1d6.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/04d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/04n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/04n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e6663ab6322a5eaec1d6.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/04n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/09d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/09d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e78c8c56627e697f1174.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/09d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/09n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/09n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e78c8c56627e697f1174.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/09n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/10d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/10d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"eaa6309e7e00f8a46060.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/10d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/10n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/10n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1ce578ca0edbed3e8867.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/10n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/11d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/11d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fb274bd2c737e393f248.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/11d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/11n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/11n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fb274bd2c737e393f248.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/11n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/13d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/13d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b3004cf8bc60dbb89df3.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/13d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/13n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/13n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b3004cf8bc60dbb89df3.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/13n.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/50d.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/50d.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"85ba87958a828a21ba4b.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/50d.png?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/50n.png":
+/*!*********************************!*\
+  !*** ./src/assets/imgs/50n.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"85ba87958a828a21ba4b.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/50n.png?");
+
+/***/ }),
+
 /***/ "./src/assets/imgs/weather.png":
 /*!*************************************!*\
   !*** ./src/assets/imgs/weather.png ***!
   \*************************************/
-/***/ ((module) => {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = \"data:image/png;base64,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\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/weather.png?");
+eval("module.exports = __webpack_require__.p + \"a0ea6baa9518d417e67c.png\";\n\n//# sourceURL=webpack://weather-app/./src/assets/imgs/weather.png?");
 
 /***/ }),
 
@@ -96,7 +276,7 @@ eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQB
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/style.css */ \"./src/assets/style.css\");\n/* harmony import */ var _UI__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UI */ \"./src/UI.js\");\n\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/style.css */ \"./src/assets/style.css\");\n/* harmony import */ var _assets_imgs_01d_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/imgs/01d.png */ \"./src/assets/imgs/01d.png\");\n/* harmony import */ var _assets_imgs_02d_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/imgs/02d.png */ \"./src/assets/imgs/02d.png\");\n/* harmony import */ var _assets_imgs_03d_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/imgs/03d.png */ \"./src/assets/imgs/03d.png\");\n/* harmony import */ var _assets_imgs_04d_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/imgs/04d.png */ \"./src/assets/imgs/04d.png\");\n/* harmony import */ var _assets_imgs_09d_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/imgs/09d.png */ \"./src/assets/imgs/09d.png\");\n/* harmony import */ var _assets_imgs_10d_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/imgs/10d.png */ \"./src/assets/imgs/10d.png\");\n/* harmony import */ var _assets_imgs_11d_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/imgs/11d.png */ \"./src/assets/imgs/11d.png\");\n/* harmony import */ var _assets_imgs_13d_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/imgs/13d.png */ \"./src/assets/imgs/13d.png\");\n/* harmony import */ var _assets_imgs_50d_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/imgs/50d.png */ \"./src/assets/imgs/50d.png\");\n/* harmony import */ var _assets_imgs_01n_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/imgs/01n.png */ \"./src/assets/imgs/01n.png\");\n/* harmony import */ var _assets_imgs_02n_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/imgs/02n.png */ \"./src/assets/imgs/02n.png\");\n/* harmony import */ var _assets_imgs_03n_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/imgs/03n.png */ \"./src/assets/imgs/03n.png\");\n/* harmony import */ var _assets_imgs_04n_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/imgs/04n.png */ \"./src/assets/imgs/04n.png\");\n/* harmony import */ var _assets_imgs_09n_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/imgs/09n.png */ \"./src/assets/imgs/09n.png\");\n/* harmony import */ var _assets_imgs_10n_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/imgs/10n.png */ \"./src/assets/imgs/10n.png\");\n/* harmony import */ var _assets_imgs_11n_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/imgs/11n.png */ \"./src/assets/imgs/11n.png\");\n/* harmony import */ var _assets_imgs_13n_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/imgs/13n.png */ \"./src/assets/imgs/13n.png\");\n/* harmony import */ var _assets_imgs_50n_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./assets/imgs/50n.png */ \"./src/assets/imgs/50n.png\");\n/* harmony import */ var _UI__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./UI */ \"./src/UI.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// oof, needed to get all these images as asset/resource into the dist for gh-pages; the template literal I used to display them wouldn't move into dist subtree for gh-pages\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
@@ -161,6 +341,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -175,6 +367,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
