@@ -1,0 +1,81 @@
+body {
+    height: 98vh;
+    width: 98vw;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 3fr;
+    place-items: center;
+    place-content: center;
+    background-image: url("./imgs/weather.png");
+}
+
+h1 {
+    grid-column: 1 / 3;
+}
+
+form {
+    border: black solid;
+    background-image: linear-gradient(red, yellow);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#container {
+    border: black solid;
+    background-image: linear-gradient(red, yellow);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "city city city"
+    "weather weather img"
+    "min temp max"
+    "humidity speed deg"
+    "radio radio radio";
+    gap: 2em;
+    place-items: center;
+    place-content: center;
+    padding: 10px;
+}
+
+#city {
+    grid-area: city;
+}
+
+#weather {
+    grid-area: weather;
+    text-transform: capitalize;
+}
+
+img {
+    grid-area: img;
+}
+
+#min {
+    grid-area: min;
+}
+
+#temp {
+    grid-area: temp;
+}
+
+#max {
+    grid-area: max;
+}
+
+#humid {
+    grid-area: humid;
+}
+
+#speed {
+    grid-area: speed;
+}
+
+#deg {
+    grid-area: deg;
+}
+
+#deg-radio {
+    grid-area: radio;
+}
