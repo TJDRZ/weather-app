@@ -1,11 +1,11 @@
 body {
-  height: 98vh;
-  width: 98vw;
   display: grid;
   grid-template-rows: 1fr 3fr;
   grid-template-columns: 1fr 3fr;
   place-items: center;
   place-content: center;
+  width: 98vw;
+  height: 98vh;
   background-image: url("./imgs/weather.png");
 }
 
@@ -14,16 +14,14 @@ h1 {
 }
 
 form {
-  border: black solid;
-  background-image: linear-gradient(red, yellow);
   display: flex;
   flex-direction: column;
   padding: 10px;
+  background-image: linear-gradient(red, yellow);
+  border: black solid;
 }
 
 #container {
-  border: black solid;
-  background-image: linear-gradient(red, yellow);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -37,6 +35,8 @@ form {
   place-items: center;
   place-content: center;
   padding: 10px;
+  background-image: linear-gradient(red, yellow);
+  border: black solid;
 }
 
 #city {
