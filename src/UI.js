@@ -42,8 +42,6 @@ const DOM = (() => {
       windDegreeArrows(weather.windDeg);
 
     document.querySelector("#icon").src = 'https://openweathermap.org/img/wn/' + weather.icon +'@2x.png';
-    console.log(weather.icon);
-    console.log(document.querySelector("#icon"));
   }
 
   function imperialTemps() {
