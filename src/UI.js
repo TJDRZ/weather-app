@@ -41,7 +41,7 @@ const DOM = (() => {
       "&#176;" +
       windDegreeArrows(weather.windDeg);
 
-    document.querySelector("#icon").src = 'http://openweathermap.org/img/wn/' + weather.icon +'@2x.png';
+    document.querySelector("#icon").src = 'https://openweathermap.org/img/wn/' + weather.icon +'@2x.png';
     console.log(weather.icon);
     console.log(document.querySelector("#icon"));
   }
