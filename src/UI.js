@@ -14,20 +14,12 @@ const DOM = (() => {
     }
   });
 
-  document.querySelector("#F").addEventListener("click", () => {
-    imperialTemps();
-  });
-
-  document.querySelector("#C").addEventListener("click", () => {
-    metricTemps();
-  });
-
-  function updateDOM() {
+  function updateDOM(weather) {
     document.querySelector("#city").textContent = weather.city;
 
     document.querySelector("#weather").textContent = weather.description;
 
-    imperialTemps();
+    imperialTemps(weather);
 
     document.querySelector("#humidity").textContent =
       "Humidity: " + weather.humidity + "%";
@@ -42,9 +34,17 @@ const DOM = (() => {
       windDegreeArrows(weather.windDeg);
 
     document.querySelector("#icon").src = 'https://openweathermap.org/img/wn/' + weather.icon +'@2x.png';
+
+    document.querySelector("#F").addEventListener("click", () => {
+      imperialTemps(weather);
+    });
+  
+    document.querySelector("#C").addEventListener("click", () => {
+      metricTemps(weather);
+    });
   }
 
-  function imperialTemps() {
+  function imperialTemps(weather) {
     document.querySelector("#min").innerHTML =
       "Low: " + weather.imperialTempMin + "&#176;";
     document.querySelector("#temp").innerHTML =
@@ -53,7 +53,7 @@ const DOM = (() => {
       "High: " + weather.imperialTempMax + "&#176;";
   }
 
-  function metricTemps() {
+  function metricTemps(weather) {
     document.querySelector("#min").innerHTML =
       "Low: " + weather.metricTempMin + "&#176;";
     document.querySelector("#temp").innerHTML =
