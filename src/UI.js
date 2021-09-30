@@ -1,64 +1,67 @@
 import { API } from "./API.js";
 
 const DOM = (() => {
-  document.querySelector("#submit").addEventListener("click", (e) => {
+  document.querySelector(".submit").addEventListener("click", (e) => {
     if (document.querySelector("form").checkValidity()) {
       e.preventDefault();
       API(
-        String(document.querySelector("#user-city").value),
-        String(document.querySelector("#user-state").value),
-        String(document.querySelector("#user-country").value)
+        String(document.querySelector(".user-city").value),
+        String(document.querySelector(".user-state").value),
+        String(document.querySelector(".user-country").value)
       ).then((weather) => {
+        document.querySelector(".container").style.display = "grid";
         updateDOM(weather);
       });
     }
   });
 
   function updateDOM(weather) {
-    document.querySelector("#city").textContent = weather.city;
+    document.querySelector(".city").textContent = weather.city;
 
-    document.querySelector("#weather").textContent = weather.description;
+    document.querySelector(".weather").textContent = weather.description;
 
     imperialTemps(weather);
 
-    document.querySelector("#humidity").textContent =
+    document.querySelector(".humidity").textContent =
       "Humidity: " + weather.humidity + "%";
 
-    document.querySelector("#speed").textContent =
+    document.querySelector(".speed").textContent =
       "Wind Speed: " + weather.windSpeed + "mph";
 
-    document.querySelector("#deg").innerHTML =
+    document.querySelector(".deg").innerHTML =
       "Wind Direction: " +
       weather.windDeg +
       "&#176;" +
       windDegreeArrows(weather.windDeg);
 
-    document.querySelector("#icon").src = 'https://openweathermap.org/img/wn/' + weather.icon +'@2x.png';
+    document.querySelector(".icon").src =
+      "https://openweathermap.org/img/wn/" + weather.icon + "@2x.png";
 
-    document.querySelector("#F").addEventListener("click", () => {
+    document.querySelector(".F").addEventListener("click", () => {
       imperialTemps(weather);
     });
-  
-    document.querySelector("#C").addEventListener("click", () => {
+
+    document.querySelector(".C").addEventListener("click", () => {
       metricTemps(weather);
     });
   }
 
+  // Helper functions for updateDOM():
   function imperialTemps(weather) {
-    document.querySelector("#min").innerHTML =
+    document.querySelector(".min").innerHTML =
       "Low: " + weather.imperialTempMin + "&#176;";
-    document.querySelector("#temp").innerHTML =
+    document.querySelector(".temp").innerHTML =
       "Now: " + weather.imperialTemp + "&#176;";
-    document.querySelector("#max").innerHTML =
+    document.querySelector(".max").innerHTML =
       "High: " + weather.imperialTempMax + "&#176;";
   }
 
   function metricTemps(weather) {
-    document.querySelector("#min").innerHTML =
+    document.querySelector(".min").innerHTML =
       "Low: " + weather.metricTempMin + "&#176;";
-    document.querySelector("#temp").innerHTML =
+    document.querySelector(".temp").innerHTML =
       "Now: " + weather.metricTemp + "&#176;";
-    document.querySelector("#max").innerHTML =
+    document.querySelector(".max").innerHTML =
       "High: " + weather.metricTempMax + "&#176;";
   }
 
@@ -82,10 +85,4 @@ const DOM = (() => {
         return "&#8599;";
     }
   }
-
-  (function defaultStart() {
-    API("Baltimore", "Maryland", "US").then((weather) => {
-      updateDOM(weather);
-    });
-  })();
 })();
