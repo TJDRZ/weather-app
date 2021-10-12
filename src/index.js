@@ -1,2 +1,2 @@
-import "./assets/style.css";
+import "./css/style.css";
 import "./UI";
